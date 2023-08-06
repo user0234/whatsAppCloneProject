@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">whatsAppClone</string>
+    <string name="splash_screen_from_string">from</string>
+    <string name="splash_screen_facebook_string">FACEBOOK</string>
+    <string name="chat_list_title_name_long">This is the simulation for long title for the title</string>
+    <string name="chat_list_title_name_short">This is it</string>
+    <string name="chat_screen_title">Chat</string>
+    <string name="empty_user_list">No user exist\n</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="chat_hint_text">Message</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/add_to_contacts"
+        android:title="Add to contacts"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/report"
+        android:title="Report"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Block"
+        android:title="Block"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Search"
+        android:title="Search"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/mute_notification"
+        android:title="Mute notification"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/wallpaper"
+        android:title="Wallpaper"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Media_Link"
+        android:title="Media, links, and docs"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/clear_chat"
+        android:title="Clear Chat"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/export_chat"
+        android:title="Export Chat"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/shortcut"
+        android:title="Add shortcut"
+        app:showAsAction="never"
+        />
+
+</menu>

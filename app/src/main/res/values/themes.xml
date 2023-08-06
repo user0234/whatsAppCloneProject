@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WhatsAppClone" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="android:colorPrimary">@color/primary_color_green</item>
+    </style>
+
+    <style name="Theme.WhatsAppClone" parent="Base.Theme.WhatsAppClone" >
+
+
+    </style>
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">60%</item>
+    </style>
+
+    <style name="editTextStyleChat" parent="Widget.Design.TextInputEditText">
+
+            <item name="enforceMaterialTheme">true</item>
+            <item name="enforceTextAppearance">true</item>
+            <item name="android:background">@null</item>
+            <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
+            <item name="textInputLayoutFocusedRectEnabled">true</item>
+
+
+    </style>
+
+</resources>

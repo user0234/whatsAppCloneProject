@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color_green">#128c7e</color>
+    <color name="background_color">#FFFFFF</color>
+    <color name="text_color_day_night">#212121</color>
+    <color name="accent_background_color">#075e54</color>
+    <color name="message_seen">#0000FF</color>
+    <color name="message_not_seen_color">#696969</color>
+    <color name="text_color_grey_dark">#696969</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="emoji_button_fill_color">#FFFFFF</color>
+    <color name="share_item_background_color">#696969</color>
+</resources>
