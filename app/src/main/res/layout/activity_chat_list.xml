@@ -84,14 +84,15 @@
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:background="@color/transparent"
+            android:background="@drawable/what_app_chat_background"
             android:scrollbars="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/bottom_message_bar"
-            tools:listitem="@layout/user_list_item"
+            tools:listitem="@layout/multi_image_chat_list_item_sent"
             tools:itemCount="3"
+
             />
 
         <LinearLayout

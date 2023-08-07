@@ -13,6 +13,10 @@
     <style name="roundedImageViewRounded">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSize">60%</item>
+     </style>
+    <style name="roundedImageViewCorners">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
     </style>
 
     <style name="editTextStyleChat" parent="Widget.Design.TextInputEditText">

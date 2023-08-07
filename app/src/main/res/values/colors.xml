@@ -9,5 +9,6 @@
     <color name="text_color_grey_dark">#696969</color>
     <color name="transparent">#00FFFFFF</color>
     <color name="emoji_button_fill_color">#FFFFFF</color>
-    <color name="share_item_background_color">#696969</color>
+    <color name="share_item_background_color">#99696969</color>
+    <color name="chat_item_audio_music_icon">#FFA500</color>
 </resources>
