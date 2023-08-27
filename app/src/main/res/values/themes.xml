@@ -30,4 +30,14 @@
 
     </style>
 
+    <style name="materialCardUpSideSemiCircle" parent="Base.Widget.Material3.CardView">
+        <item name="strokeWidth">0dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+        <item name="boxCornerRadiusTopEnd">0dp</item>
+        <item name="boxCornerRadiusTopStart">0dp</item>
+        <item name="shapeAppearance">@macro/m3_comp_outlined_card_container_shape</item>
+    </style>
+
 </resources>

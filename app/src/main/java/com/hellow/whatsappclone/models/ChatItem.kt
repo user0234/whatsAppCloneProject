@@ -10,18 +10,16 @@ import java.io.Serializable
 @Entity(tableName = "Chat")
 data class ChatItem(
     @PrimaryKey
-    val id:String,
-
+    val id:Int,
     @TypeConverters(ChatItemTypeConverter::class)
-    val Type:ChatType,
-    val isSenderMe:Boolean,
+    val type:ChatType,
     val text:String? = null,
-    val linkText:String? = null,
+    val linkText:Boolean = false,
     val imageLink:String? = null,
-    val audioLink:String? = null,
-
+    val audio_length:String? = null,
     @TypeConverters(ChatMultiImageConverter::class)
     val multiImageLink:List<String>? = null,
-    val dataLink:String? = null,
+    val unknownDataLink:String? = null,
     val profileId:String,
+    val dateTime:String
 ) : Serializable

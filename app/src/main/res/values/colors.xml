@@ -11,4 +11,6 @@
     <color name="emoji_button_fill_color">#FFFFFF</color>
     <color name="share_item_background_color">#99696969</color>
     <color name="chat_item_audio_music_icon">#FFA500</color>
+    <color name="chat_list_item_sent_background_color">#AFE1AF</color>
+    <color name="chat_item_audio_seek_bar_progress_tint">#FFD700</color>
 </resources>

@@ -2,6 +2,7 @@ package com.hellow.whatsappclone.repository
 
 import androidx.lifecycle.LiveData
 import com.hellow.whatsappclone.models.ChatItem
+import com.hellow.whatsappclone.models.UserChatData
 import com.hellow.whatsappclone.models.UserItem
 
 interface RepositoryBluePrint {
@@ -14,8 +15,8 @@ interface RepositoryBluePrint {
 
     suspend fun deleteChat(item:ChatItem)
 
-    fun getAllUsers():LiveData<List<UserItem>>
+    fun getAllUsers():List<UserItem>
 
-    fun getChatOfUser(id:String):LiveData<List<ChatItem>>
+    fun getUserChat(id:Int): UserChatData
 
 }

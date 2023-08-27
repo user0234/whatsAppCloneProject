@@ -51,7 +51,7 @@ open class UserListAdaptor : RecyclerView.Adapter<UserListAdaptor.UserAdaptorHol
             tvUserName.text = currentItem.UserName
             tvDate.text = currentItem.recentMessageTime
             Glide.with(holder.itemView.context).load(currentItem.profileUrl)
-                .placeholder(R.drawable.user_profile_view_holder).dontAnimate().into(ivProfileImage)
+                .placeholder(R.drawable.user_profile_view_holder).dontAnimate().into(ivImage)
             tvLastText.text = currentItem.lastMessageText
         }
 
@@ -70,27 +70,22 @@ open class UserListAdaptor : RecyclerView.Adapter<UserListAdaptor.UserAdaptorHol
 
         // set Up recent text view
         when (currentItem.lastMessageType) {
-            ChatType.Audio -> {
+            ChatType.AudioSent -> {
                 holder.binding.ivLastMessageNotText.visibility = View.VISIBLE
                 holder.binding.ivLastMessageNotText.setBackgroundResource(R.drawable.last_message_audio)
             }
 
-            ChatType.Data -> {
-                holder.binding.ivLastMessageNotText.visibility = View.VISIBLE
-                holder.binding.ivLastMessageNotText.setBackgroundResource(R.drawable.last_message_data)
-            }
-
-            ChatType.Image -> {
+            ChatType.ImageSent -> {
                 holder.binding.ivLastMessageNotText.visibility = View.VISIBLE
                 holder.binding.ivLastMessageNotText.setBackgroundResource(R.drawable.last_message_image)
             }
 
-            ChatType.MultiImage -> {
+            ChatType.MultiImageSent -> {
                 holder.binding.ivLastMessageNotText.visibility = View.VISIBLE
                 holder.binding.ivLastMessageNotText.setBackgroundResource(R.drawable.last_message_image)
             }
 
-            ChatType.Video -> {
+            ChatType.VideoSent -> {
                 holder.binding.ivLastMessageNotText.visibility = View.VISIBLE
                 holder.binding.ivLastMessageNotText.setBackgroundResource(R.drawable.last_message_video)
             }

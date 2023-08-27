@@ -12,7 +12,7 @@ import java.io.Serializable
 data class UserItem (
 
     @PrimaryKey
-    val id: String,
+    val id: Int,
     val UserName:String,
     val isVerified:Boolean,
     val profileUrl:String,

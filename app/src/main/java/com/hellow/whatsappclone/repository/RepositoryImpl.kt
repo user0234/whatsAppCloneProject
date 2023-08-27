@@ -1,8 +1,10 @@
 package com.hellow.whatsappclone.repository
 
 import androidx.lifecycle.LiveData
+import com.hellow.TestData
 import com.hellow.whatsappclone.database.ChatDataBase
 import com.hellow.whatsappclone.models.ChatItem
+import com.hellow.whatsappclone.models.UserChatData
 import com.hellow.whatsappclone.models.UserItem
 
 class RepositoryImpl(
@@ -27,11 +29,11 @@ class RepositoryImpl(
 
     }
 
-    override fun getAllUsers(): LiveData<List<UserItem>> {
-               return database.ChatDao().getAllUsers()
+    override fun getAllUsers(): List<UserItem> {
+               return TestData.UsersList
     }
 
-    override fun getChatOfUser(id: String): LiveData<List<ChatItem>> {
-        return database.ChatDao().getChatOfUser(id)
+   override fun getUserChat(id:Int):UserChatData {
+        return TestData.userData(id)
     }
 }

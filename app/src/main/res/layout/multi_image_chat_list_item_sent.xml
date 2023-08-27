@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginStart="100dp"
+    android:layout_marginBottom="4dp"
     >
 <androidx.constraintlayout.widget.ConstraintLayout
     app:layout_constraintTop_toTopOf="parent"
@@ -47,7 +47,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/guide_line_horizontal"
         >
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/iv_profile_image_first"
+            android:id="@+id/iv_image_1"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -59,14 +59,14 @@
             app:shapeAppearanceOverlay="@style/roundedImageViewCorners"
             />
         <TextView
-            android:id="@+id/tv_sent_time_first"
+            android:id="@+id/tv_time_1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="5dp"
             android:text="9:30 pm"
-            android:textColor="@color/text_color_grey_dark"
-            android:textSize="11sp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -82,7 +82,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/guide_line_horizontal"
         >
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/iv_profile_image_second"
+            android:id="@+id/iv_image_2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -94,14 +94,14 @@
             app:shapeAppearanceOverlay="@style/roundedImageViewCorners"
             />
         <TextView
-            android:id="@+id/tv_sent_time_second"
+            android:id="@+id/tv_time_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="5dp"
             android:text="9:30 pm"
-            android:textColor="@color/text_color_grey_dark"
-            android:textSize="11sp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -116,7 +116,7 @@
         app:layout_constraintEnd_toEndOf="@+id/guide_line_vertical"
         app:layout_constraintBottom_toBottomOf="parent"        >
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/iv_profile_image_third"
+            android:id="@+id/iv_image_3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -128,14 +128,14 @@
             app:shapeAppearanceOverlay="@style/roundedImageViewCorners"
             />
         <TextView
-            android:id="@+id/tv_sent_time_third"
+            android:id="@+id/tv_time_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="5dp"
             android:text="9:30 pm"
-            android:textColor="@color/text_color_grey_dark"
-            android:textSize="11sp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -150,7 +150,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"    >
         <com.google.android.material.imageview.ShapeableImageView
-            android:id="@+id/iv_profile_image_forth"
+            android:id="@+id/iv_image_4"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"
@@ -162,14 +162,14 @@
             app:shapeAppearanceOverlay="@style/roundedImageViewCorners"
             />
         <TextView
-            android:id="@+id/tv_sent_time_forth"
+            android:id="@+id/tv_time_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="5dp"
             android:text="9:30 pm"
-            android:textColor="@color/text_color_grey_dark"
-            android:textSize="11sp"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>

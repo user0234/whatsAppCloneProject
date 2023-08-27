@@ -79,23 +79,23 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/what_app_chat_background"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_chat_list"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:background="@drawable/what_app_chat_background"
             android:scrollbars="vertical"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@+id/bottom_message_bar"
-            tools:listitem="@layout/multi_image_chat_list_item_sent"
+            tools:listitem="@layout/audio_type_chat_list_layout_sent"
             tools:itemCount="3"
-
             />
 
-        <LinearLayout
+         <LinearLayout
             android:id="@+id/bottom_message_bar"
             android:layout_width="match_parent"
             android:layout_height="75dp"
@@ -105,6 +105,7 @@
             android:orientation="horizontal"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="5dp"
+            android:backgroundTint="@android:color/transparent"
             >
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="0dp"
@@ -123,6 +124,7 @@
                     android:orientation="horizontal"
                     >
                     <ImageButton
+                        android:clickable="true"
                         android:layout_marginStart="15dp"
                         android:layout_gravity="center_vertical"
                         android:id="@+id/emoji_button"
@@ -147,6 +149,7 @@
                         android:layout_weight="1"
                         />
                     <ImageButton
+                        android:clickable="true"
                         android:layout_marginStart="8dp"
                         android:layout_gravity="center_vertical"
                         android:id="@+id/attachment_button"
@@ -154,9 +157,11 @@
                         android:layout_height="27dp"
                         android:background="@color/transparent"
                         android:src="@drawable/baseline_attach_file_24"
+                        android:layout_marginEnd="10dp"
                         />
                     <ImageButton
-                        android:layout_marginStart="8dp"
+
+                        android:clickable="true"
                         android:layout_gravity="center_vertical"
                         android:id="@+id/camera_button"
                         android:layout_width="27dp"
